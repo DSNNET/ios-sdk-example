@@ -9,6 +9,7 @@
 #import <AppTrackingTransparency/AppTrackingTransparency.h>
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "ViewControllerB.h"
 
 @implementation AppDelegate
 
@@ -25,8 +26,13 @@
                   appSignature:@"92e2de2fd7070327bdeb54c15a5295309c6fcd2d"
                     completion:^(CHBStartError * error) {
         ViewController *vc = (ViewController *)self.window.rootViewController;
+      if (![vc isKindOfClass:[ViewController class]]) return;
         [vc log:error == nil ? @"Chartboost initialized successfully!" : @"Chartboost failed to initialize."];
     }];
+  
+  self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+  self.window.rootViewController = [[ViewControllerB alloc] init];
+  [self.window makeKeyAndVisible];
 
     return YES;
 }

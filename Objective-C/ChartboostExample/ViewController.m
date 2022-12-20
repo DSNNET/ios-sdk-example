@@ -27,6 +27,11 @@
     [self log:self.logBeforeViewDidLoad];
 }
 
+- (void)dismissViewControllerAnimated:(BOOL)flag completion:(void (^)(void))completion {
+  NSLog(@"激励广告调试 dismissViewControllerAnimated:completion:");
+  [super dismissViewControllerAnimated:flag completion:completion];
+}
+
 - (IBAction)cacheInterstitial:(id)sender {
     [self.interstitial cache];
 }

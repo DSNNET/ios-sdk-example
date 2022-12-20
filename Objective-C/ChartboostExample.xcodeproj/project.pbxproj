@@ -20,6 +20,7 @@
 		33790B23247682F5007502D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA93B6B9182B31BC00C21472 /* InfoPlist.strings */; };
 		33790B24247682F5007502D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA93B6C2182B31BC00C21472 /* Main.storyboard */; };
 		921702572834CDCD006C4DE0 /* ChartboostSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 921702562834CDCD006C4DE0 /* ChartboostSDK.xcframework */; };
+		CB3FB08229518EA0001328E6 /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = CB3FB08129518EA0001328E6 /* ViewControllerB.m */; };
 		DA93B6BB182B31BC00C21472 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA93B6B9182B31BC00C21472 /* InfoPlist.strings */; };
 		DA93B6BD182B31BC00C21472 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA93B6BC182B31BC00C21472 /* main.m */; };
 		DA93B6C1182B31BC00C21472 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA93B6C0182B31BC00C21472 /* AppDelegate.m */; };
@@ -40,6 +41,8 @@
 		72DDB3CEF20B1080F7794556 /* Pods_ChartboostExample_Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChartboostExample_Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		921702562834CDCD006C4DE0 /* ChartboostSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ChartboostSDK.xcframework; path = ../ChartboostSDK.xcframework; sourceTree = "<group>"; };
 		9CDE8983C85C358EF6DE6BCF /* Pods-ChartboostExample-Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChartboostExample-Pods.debug.xcconfig"; path = "Target Support Files/Pods-ChartboostExample-Pods/Pods-ChartboostExample-Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CB3FB08029518EA0001328E6 /* ViewControllerB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
+		CB3FB08129518EA0001328E6 /* ViewControllerB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
 		DA93B6AD182B31BC00C21472 /* Chartboost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chartboost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA93B6B8182B31BC00C21472 /* ChartboostExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ChartboostExample-Info.plist"; sourceTree = "<group>"; };
 		DA93B6BA182B31BC00C21472 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -134,6 +137,8 @@
 				DA93B6C0182B31BC00C21472 /* AppDelegate.m */,
 				DA93B6C8182B31BC00C21472 /* ViewController.h */,
 				DA93B6C9182B31BC00C21472 /* ViewController.m */,
+				CB3FB08029518EA0001328E6 /* ViewControllerB.h */,
+				CB3FB08129518EA0001328E6 /* ViewControllerB.m */,
 				DA93B6B7182B31BC00C21472 /* Supporting Files */,
 			);
 			path = ChartboostExample;
@@ -293,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA93B6CA182B31BC00C21472 /* ViewController.m in Sources */,
+				CB3FB08229518EA0001328E6 /* ViewControllerB.m in Sources */,
 				DA93B6C1182B31BC00C21472 /* AppDelegate.m in Sources */,
 				DA93B6BD182B31BC00C21472 /* main.m in Sources */,
 			);
